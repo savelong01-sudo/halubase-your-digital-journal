@@ -29,6 +29,7 @@ function Home() {
           <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#features" className="hover:text-foreground transition">Tính năng</a>
             <a href="#showcase" className="hover:text-foreground transition">Giao diện</a>
+            <a href="/guide" className="hover:text-foreground transition">Hướng dẫn</a>
             <a href="#download" className="hover:text-foreground transition">Tải về</a>
           </nav>
           <a href="#download" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-foreground text-background text-sm font-medium hover:opacity-90 transition">
@@ -168,9 +169,11 @@ function Home() {
             <span>© 2026 Halubase. Journal & Documents.</span>
           </div>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition">Quyền riêng tư</a>
-            <a href="#" className="hover:text-foreground transition">Điều khoản</a>
-            <a href="#" className="hover:text-foreground transition">Liên hệ</a>
+            <a href="/privacy" className="hover:text-foreground transition">Quyền riêng tư</a>
+            <a href="/terms" className="hover:text-foreground transition">Điều khoản</a>
+            <a href="/cookies" className="hover:text-foreground transition">Cookie</a>
+            <a href="/guide" className="hover:text-foreground transition">Hướng dẫn</a>
+            <a href="mailto:support@halubase.com" className="hover:text-foreground transition">Liên hệ</a>
           </div>
         </div>
       </footer>
