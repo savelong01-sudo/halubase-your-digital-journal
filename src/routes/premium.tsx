@@ -100,6 +100,11 @@ function PremiumPage() {
             <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
               Open the Halubase app on your mobile device, navigate to Settings, and tap "Unlock Premium Features" to complete your purchase. Payment will be processed securely via Apple App Store or Google Play.
             </p>
+            <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs">
+              <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noreferrer" className="text-primary hover:underline">Apple Standard EULA</a>
+              <span className="text-muted-foreground">•</span>
+              <a href="https://play.google.com/about/play-terms/index.html" target="_blank" rel="noreferrer" className="text-primary hover:underline">Google Play Terms</a>
+            </div>
           </div>
         </div>
       </section>
