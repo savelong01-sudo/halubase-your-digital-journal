@@ -4,8 +4,8 @@ import logoAsset from "@/assets/halubase-logo.png.asset.json";
 export const Route = createFileRoute("/premium")({
   head: () => ({
     meta: [
-      { title: "Halubase Premium — Mở khóa Tính năng Trọn đời" },
-      { name: "description", content: "Nâng cấp lên Halubase Premium để trải nghiệm không quảng cáo, Thư mục bí mật và đồng bộ hóa đám mây." },
+      { title: "Halubase Premium — Unlock Lifetime Features" },
+      { name: "description", content: "Upgrade to Halubase Premium for an ad-free experience, Secret Folder access, and advanced cloud sync." },
     ],
   }),
   component: PremiumPage,
@@ -21,9 +21,9 @@ function PremiumPage() {
             <span className="font-bold text-lg tracking-tight">Halubase</span>
           </a>
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="/guide" className="text-muted-foreground hover:text-foreground transition-colors">Hướng dẫn</a>
-            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Bảo mật</a>
-            <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Điều khoản</a>
+            <a href="/guide" className="text-muted-foreground hover:text-foreground transition-colors">User Guide</a>
+            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
+            <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms</a>
           </nav>
         </div>
       </header>
@@ -34,10 +34,10 @@ function PremiumPage() {
             <span className="text-4xl">⭐</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
-            Mở khóa Halubase Premium
+            Unlock Halubase Premium
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Nâng tầm trải nghiệm viết nhật ký của bạn với các tính năng độc quyền được thiết kế cho sự tiện lợi và riêng tư tối đa.
+            Take your diary experience to the next level with exclusive features designed for ultimate privacy and convenience.
           </p>
         </div>
 
@@ -51,8 +51,8 @@ function PremiumPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Thư mục Bí mật</h3>
-                <p className="text-muted-foreground">Bảo vệ những kỷ niệm riêng tư nhất của bạn bằng mã PIN hoặc xác thực sinh trắc học. Giữ an toàn cho mọi bí mật của bạn.</p>
+                <h3 className="text-xl font-bold mb-2">Secret Folder</h3>
+                <p className="text-muted-foreground">Protect your most private memories with PIN code or biometric authentication. Keep your secrets safe.</p>
               </div>
             </div>
 
@@ -63,8 +63,8 @@ function PremiumPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Trải nghiệm Không Quảng cáo</h3>
-                <p className="text-muted-foreground">Tận hưởng trải nghiệm viết nhật ký mượt mà, không bị phân tâm mãi mãi mà không có bất kỳ quảng cáo biểu ngữ hoặc cửa sổ bật lên nào.</p>
+                <h3 className="text-xl font-bold mb-2">Ad-Free Experience</h3>
+                <p className="text-muted-foreground">Enjoy a seamless, distraction-free journaling experience forever without any banner or popup ads.</p>
               </div>
             </div>
 
@@ -75,37 +75,37 @@ function PremiumPage() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Đồng bộ Đám mây Nâng cao</h3>
-                <p className="text-muted-foreground">Tự động sao lưu và khôi phục toàn bộ dữ liệu của bạn trên nhiều thiết bị một cách mượt mà và bảo mật nhất.</p>
+                <h3 className="text-xl font-bold mb-2">Advanced Cloud Sync</h3>
+                <p className="text-muted-foreground">Automatically backup and restore all your data across multiple devices seamlessly.</p>
               </div>
             </div>
           </div>
 
           {/* Pricing Card */}
           <div className="rounded-2xl border border-amber-500/30 bg-amber-500/5 p-8 shadow-2xl shadow-amber-500/10 text-center">
-            <div className="text-sm font-bold tracking-widest text-amber-500 uppercase mb-4">Mua 1 lần dùng mãi mãi</div>
+            <div className="text-sm font-bold tracking-widest text-amber-500 uppercase mb-4">Lifetime Access</div>
             <div className="flex items-end justify-center gap-1 mb-4">
               <span className="text-5xl font-bold">$4.99</span>
               <span className="text-xl text-muted-foreground mb-1">USD</span>
             </div>
             <p className="text-muted-foreground mb-8">
-              Thanh toán một lần duy nhất. Không có gói đăng ký gia hạn tự động.
+              One-time payment. Yours forever. No recurring subscriptions.
             </p>
             <a 
               href="halubase://settings" 
               className="block w-full py-4 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 text-white font-bold text-lg hover:opacity-90 transition-opacity"
             >
-              Mở khóa trong Ứng dụng
+              Get Premium in App
             </a>
             <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
-              Mở ứng dụng Halubase trên điện thoại của bạn, vào mục Cài đặt (Settings), và chọn "Unlock Premium Features" để hoàn tất giao dịch. Thanh toán sẽ được xử lý an toàn qua Apple App Store hoặc Google Play.
+              Open the Halubase app on your mobile device, navigate to Settings, and tap "Unlock Premium Features" to complete your purchase. Payment will be processed securely via Apple App Store or Google Play.
             </p>
           </div>
         </div>
       </section>
 
       <footer className="border-t border-border/50 py-12 text-center text-muted-foreground">
-        <p>© {new Date().getFullYear()} Halubase. Đã đăng ký bản quyền.</p>
+        <p>© {new Date().getFullYear()} Halubase. All rights reserved.</p>
       </footer>
     </div>
   );

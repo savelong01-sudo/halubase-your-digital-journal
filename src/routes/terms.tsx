@@ -4,8 +4,8 @@ import logoAsset from "@/assets/halubase-logo.png.asset.json";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Điều khoản Dịch vụ — Halubase" },
-      { name: "description", content: "Điều khoản dịch vụ khi sử dụng ứng dụng Halubase." },
+      { title: "Terms of Service — Halubase" },
+      { name: "description", content: "Terms of Service for using the Halubase application." },
     ],
   }),
   component: TermsPage,
@@ -21,9 +21,9 @@ function TermsPage() {
             <span className="font-bold text-lg tracking-tight">Halubase</span>
           </a>
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="/guide" className="text-muted-foreground hover:text-foreground transition-colors">Hướng dẫn</a>
+            <a href="/guide" className="text-muted-foreground hover:text-foreground transition-colors">User Guide</a>
             <a href="/premium" className="text-muted-foreground hover:text-foreground transition-colors">Premium</a>
-            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Bảo mật</a>
+            <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
           </nav>
         </div>
       </header>
@@ -31,63 +31,63 @@ function TermsPage() {
       <section className="border-b border-border/50 bg-muted/30">
         <div className="mx-auto max-w-4xl px-6 py-20 text-center">
           <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
-            Cập nhật lần cuối: Tháng 6 năm 2026
+            Last Updated: June 2026
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Điều khoản Dịch vụ
+            Terms of Service
           </h1>
           <p className="text-xl text-muted-foreground">
-            Vui lòng đọc kỹ các điều khoản này trước khi sử dụng Halubase.
+            Please read these terms carefully before using Halubase.
           </p>
         </div>
       </section>
 
       <section className="mx-auto max-w-4xl px-6 py-16">
         <div className="prose prose-slate dark:prose-invert max-w-none prose-headings:scroll-mt-24 prose-a:text-primary">
-          <h2>1. Đồng ý với Điều khoản</h2>
+          <h2>1. Agreement to Terms</h2>
           <p>
-            Bằng cách truy cập hoặc sử dụng ứng dụng di động Halubase, bạn đồng ý bị ràng buộc bởi các Điều khoản Dịch vụ này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản, bạn không được phép truy cập Ứng dụng.
+            By accessing or using the Halubase mobile application, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, then you may not access the App.
           </p>
 
-          <h2>2. Nội dung và Quyền sở hữu của Người dùng</h2>
+          <h2>2. User Content and Ownership</h2>
           <p>
-            Bạn giữ tất cả quyền sở hữu đối với các bài viết nhật ký, hình ảnh, video và nội dung khác của mình ("Nội dung Người dùng"). Chúng tôi không yêu cầu bất kỳ quyền sở hữu nào đối với Nội dung Người dùng của bạn. Bằng cách sử dụng Halubase, bạn hoàn toàn chịu trách nhiệm về dữ liệu bạn tạo và lưu trữ.
+            You retain all your ownership rights in your diary entries, photos, videos, and other content ("User Content"). We do not claim any ownership rights over your User Content. By using Halubase, you are entirely responsible for the data you create and store.
           </p>
 
-          <h2>3. Thanh toán trong ứng dụng & Premium</h2>
+          <h2>3. In-App Purchases & Premium</h2>
           <p>
-            Halubase cung cấp gói nâng cấp "Premium" có sẵn thông qua Thanh toán trong ứng dụng (In-App Purchase). Gói nâng cấp Premium cung cấp quyền truy cập trọn đời (lifetime) vào tất cả các tính năng cao cấp, bao gồm Thư mục bí mật, trải nghiệm không quảng cáo và đồng bộ hóa đám mây nâng cao.
+            Halubase offers a "Premium" upgrade available through an In-App Purchase. The Premium upgrade provides a lifetime access to all premium features, including the Secret Folder, an ad-free experience, and advanced cloud sync.
           </p>
           <ul>
-            <li><strong>Thanh toán:</strong> Thanh toán sẽ được tính vào tài khoản Apple ID hoặc Google Play của bạn khi xác nhận mua hàng.</li>
-            <li><strong>Không phải gói đăng ký:</strong> Đây là khoản thanh toán một lần, KHÔNG phải là gói đăng ký tự động gia hạn (Non-Subscription).</li>
-            <li><strong>Hoàn tiền:</strong> Việc hoàn tiền được Apple và Google xử lý theo chính sách hoàn tiền tương ứng của App Store và Google Play.</li>
+            <li><strong>Payment:</strong> Payment will be charged to your Apple ID or Google Play account at the confirmation of purchase.</li>
+            <li><strong>Non-Subscription:</strong> This is a one-time purchase, NOT a recurring subscription.</li>
+            <li><strong>Refunds:</strong> Refunds are handled by Apple and Google in accordance with their respective App Store and Google Play refund policies.</li>
           </ul>
 
-          <h2>4. Các hoạt động bị Cấm</h2>
+          <h2>4. Prohibited Activities</h2>
           <p>
-            Bạn không được truy cập hoặc sử dụng Ứng dụng cho bất kỳ mục đích nào khác ngoài mục đích mà chúng tôi cung cấp. Bạn đồng ý không cố gắng vượt qua bất kỳ biện pháp bảo mật nào của Ứng dụng, bao gồm cả xác thực Thư mục bí mật.
+            You may not access or use the App for any purpose other than that for which we make the App available. You agree not to attempt to bypass any security measures of the App, including the Secret Folder authentication.
           </p>
 
-          <h2>5. Giới hạn Trách nhiệm Pháp lý</h2>
+          <h2>5. Limitation of Liability</h2>
           <p>
-            Trong phạm vi tối đa mà pháp luật hiện hành cho phép, Halubase, các nhà phát triển hoặc đối tác của Halubase sẽ không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, mang tính trừng phạt, ngẫu nhiên, đặc biệt, do hậu quả hoặc thiệt hại để làm gương, bao gồm nhưng không giới hạn ở thiệt hại do mất lợi nhuận, lợi thế thương mại, việc sử dụng, dữ liệu hoặc các tổn thất vô hình khác, phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ này. Chúng tôi đặc biệt khuyên bạn nên thường xuyên sao lưu dữ liệu của mình lên đám mây để ngăn ngừa mất mát dữ liệu.
+            To the maximum extent permitted by applicable law, in no event shall Halubase, its developers, or partners be liable for any indirect, punitive, incidental, special, consequential, or exemplary damages, including without limitation damages for loss of profits, goodwill, use, data, or other intangible losses, that result from the use of, or inability to use, this service. We strongly recommend regularly backing up your data to the cloud to prevent data loss.
           </p>
 
-          <h2>6. Thay đổi Điều khoản</h2>
+          <h2>6. Changes to Terms</h2>
           <p>
-            Chúng tôi bảo lưu quyền sửa đổi hoặc thay thế các Điều khoản này bất kỳ lúc nào theo quyết định riêng của mình. Bằng cách tiếp tục truy cập hoặc sử dụng Ứng dụng sau khi các bản sửa đổi đó có hiệu lực, bạn đồng ý bị ràng buộc bởi các điều khoản đã sửa đổi.
+            We reserve the right, at our sole discretion, to modify or replace these Terms at any time. By continuing to access or use our App after those revisions become effective, you agree to be bound by the revised terms.
           </p>
 
-          <h2>7. Liên hệ với chúng tôi</h2>
+          <h2>7. Contact Us</h2>
           <p>
-            Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản này, vui lòng liên hệ với chúng tôi tại: <a href="mailto:support@halubase.lovable.app">support@halubase.lovable.app</a>.
+            If you have any questions about these Terms, please contact us at: <a href="mailto:support@halubase.lovable.app">support@halubase.lovable.app</a>.
           </p>
         </div>
       </section>
 
       <footer className="border-t border-border/50 py-12 text-center text-muted-foreground">
-        <p>© {new Date().getFullYear()} Halubase. Đã đăng ký bản quyền.</p>
+        <p>© {new Date().getFullYear()} Halubase. All rights reserved.</p>
       </footer>
     </div>
   );
